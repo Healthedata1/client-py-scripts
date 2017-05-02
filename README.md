@@ -1,8 +1,8 @@
 # client-py-sripts output:
 
-'''
-dot list =
-[   'patient.implicitRules=str',
+
+    dot list =
+    [   'patient.implicitRules=str',
     'patient.language=str',
     'patient.meta.lastUpdated=FHIRDate',
     'patient.meta.profile_0=str',
@@ -188,7 +188,8 @@ dot list =
     'patient.telecom_0.system=str',
     'patient.telecom_0.use=str',
     'patient.telecom_0.value=str']
-resource = {
+resource = 
+    {
     "ResourceType": "Patient",
     "active": "bool",
     "address": [
@@ -558,7 +559,7 @@ resource = {
         "div": "str",
         "status": "str"
     }
-}
-'''
+    }
+
  2017-05-02 12:45:12,029 - INFO- End of program
 [Finished in 0.739s]
