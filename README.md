@@ -1,6 +1,6 @@
 # client-py-sripts output:
 
-
+'''
 dot list =
 [   'patient.implicitRules=str',
     'patient.language=str',
@@ -559,5 +559,6 @@ resource = {
         "status": "str"
     }
 }
+'''
  2017-05-02 12:45:12,029 - INFO- End of program
 [Finished in 0.739s]
